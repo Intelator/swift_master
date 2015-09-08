@@ -13,7 +13,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         String input = null;
 
-        System.out.println("Where would you like to save your file?");
+        System.out.println("Insert pass to your folder");
         input = scan.next();
 
         File swiftMes = new File (input);
